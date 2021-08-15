@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Bebas+Neue&family=Merriweather:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -8,22 +10,17 @@
   --primary-color: hsl(357, 48%, 41%);
   --secondary-color: #cbd7e1;
   --black: hsl(0, 0%, 0%);
-}
-
-body {
-  background: linear-gradient(90deg, #ff9933 50%, #138808 50%);
-  color: #fff;
+  --tricolor: linear-gradient(90deg, #ff9933 50%, #138808 50%);
 }
 
 a {
   text-decoration: none;
 }
 
-.home-heading,
-.home-heading-two {
+.home-heading {
   height: 100vh;
   text-align: center;
-  background-image: url(./flag.svg);
+  background-image: url(img/flag.svg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,10 +47,6 @@ a {
   z-index: 2;
 }
 
-.home-heading span {
-  color: var(--primary-color);
-}
-
 .home-heading,
 .home-heading-two h1 {
   font-family: "Barlow", sans-serif;
@@ -62,7 +55,15 @@ a {
 }
 
 .logo {
-  max-width: 30%;
+  max-width: 20%;
+}
+
+.learn-more {
+  color: #fff;
+}
+
+.learn-more:hover {
+  color: #ff9933;
 }
 
 .home-header-btn {
@@ -88,7 +89,7 @@ a {
 .home-heading-two {
   height: 100vh;
   text-align: center;
-  background-image: url(./aaa.svg);
+  background-image: url(img/aaa.svg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -130,7 +131,7 @@ nav {
 }
 
 #sec-8 {
-  background-image: url("upc.png");
+  background-image: url("img/upc.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -140,9 +141,25 @@ nav {
   margin: 70px 0 0 0;
   background-position: center;
   padding: 50px 20px;
+  height: 100vh;
 }
 
 #footer {
   background-color: #ff9933;
+  color: #fff;
+}
+.r-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff9933;
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+}
+
+.r-btn a {
   color: #fff;
 }
