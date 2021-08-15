@@ -88,7 +88,7 @@ a {
 .home-heading-two {
   height: 100vh;
   text-align: center;
-  background-image: url(./redf.svg);
+  background-image: url(./aaa.svg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,18 +116,33 @@ nav {
   box-shadow: 0 4px 12px 0 rgb(0 0 0 / 55%);
   text-transform: uppercase;
 }
-
 .navbar-nav .nav-item .nav-link,
 .social-icons i {
   color: #ffff;
 }
-
 .navbar-nav .nav-item .nav-link :hover :hover {
   color: #000080;
 }
-
 .navbar .navbar-brand {
   font-family: "Open Sans";
   font-size: 2.6rem;
   color: var(--secondary-color);
+}
+
+#sec-8 {
+  background-image: url("upc.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  color: #ffff;
+  margin: 70px 0 0 0;
+  background-position: center;
+  padding: 50px 20px;
+}
+
+#footer {
+  background-color: #ff9933;
+  color: #fff;
 }
