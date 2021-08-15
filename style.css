@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hsl(357, 48%, 41%);
+  --secondary-color: #cbd7e1;
+  --black: hsl(0, 0%, 0%);
+}
+
+body {
+  background: linear-gradient(90deg, #ff9933 50%, #138808 50%);
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home-heading,
+.home-heading-two {
+  height: 100vh;
+  text-align: center;
+  background-image: url(./flag.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-position: center;
+}
+
+.home-heading::after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  opacity: 60%;
+}
+.home-heading .col-sm-12 {
+  font-family: "Merriweather", serif;
+  z-index: 2;
+  position: relative;
+}
+
+.home-heading,
+.home-heading-two {
+  z-index: 2;
+}
+
+.home-heading span {
+  color: var(--primary-color);
+}
+
+.home-heading,
+.home-heading-two h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  position: relative;
+}
+
+.logo {
+  max-width: 30%;
+}
+
+.home-header-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid var(--secondary-color);
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 300;
+  transition: 0.5s ease-in-out;
+  transition-property: background-color;
+}
+.home-header-btn a {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.home-header-btn:hover {
+  background-color: #ff9933;
+}
+.home-heading-two {
+  height: 100vh;
+  text-align: center;
+  background-image: url(./redf.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-position: center;
+}
+
+.home-heading-two::after {
+  content: "";
+  position: absolute;
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  opacity: 60%;
+}
+
+.home-heading-two .col-sm-12 {
+  font-family: "Merriweather", serif;
+  z-index: 2;
+  position: relative;
+}
+
+nav {
+  background: linear-gradient(90deg, #ff9933 50%, #138808 50%);
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 55%);
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link,
+.social-icons i {
+  color: #ffff;
+}
+
+.navbar-nav .nav-item .nav-link :hover :hover {
+  color: #000080;
+}
+
+.navbar .navbar-brand {
+  font-family: "Open Sans";
+  font-size: 2.6rem;
+  color: var(--secondary-color);
+}
